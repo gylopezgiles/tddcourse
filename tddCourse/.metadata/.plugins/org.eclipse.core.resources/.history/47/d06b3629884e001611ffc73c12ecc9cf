@@ -1,0 +1,19 @@
+package com.tenpines.tddcourse;
+
+public class LatinNumberToRomanTransformer {
+	
+	public String transform(int latinNumber){
+		if(latinNumber == 1){
+			return "I";
+		} else{
+			if(latinNumber == 2){
+				return "II";
+			} else {
+				return "III";
+			}
+			
+		}
+		
+	}
+
+}

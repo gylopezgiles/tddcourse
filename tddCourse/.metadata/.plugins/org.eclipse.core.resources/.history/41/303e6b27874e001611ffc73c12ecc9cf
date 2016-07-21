@@ -1,0 +1,31 @@
+package com.tenpines.tddcourse;
+
+
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class XXXX {
+	
+	
+	@Test
+	public void test001(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(1);
+		//then
+			Assert.assertTrue("I".equals(expected));
+	}
+	
+	@Test
+	public void test002(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(2);
+		//then
+			Assert.assertTrue("II".equals(expected));
+	}
+
+}

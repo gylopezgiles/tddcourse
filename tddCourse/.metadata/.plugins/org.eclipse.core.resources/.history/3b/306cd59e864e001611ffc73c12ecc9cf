@@ -1,0 +1,20 @@
+package com.tenpines.tddcourse;
+
+import junit.framework.Assert;
+
+import org.junit.Test;
+
+public class XXXX {
+	
+	
+	@Test
+	public void test001(){
+		//given
+		
+		//when
+		
+		//then
+			Assert.assertTrue(1==2);
+	}
+
+}

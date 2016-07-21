@@ -1,0 +1,7 @@
+1469030556447	Extract method 'transform1to9'
+1469031193502	Rename method 'transform1to9'
+1469108454334	Rename method 'addPipes'
+1469113641428	Encapsulate field 'cantidad'
+1469114113129	Encapsulate field 'name'
+1469114342149	Rename method 'getBook'
+1469115849540	Encapsulate field 'quantity'

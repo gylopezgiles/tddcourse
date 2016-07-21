@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="XXXX" project="firstKata_RomansNumber" tests="20" started="20" failures="0" errors="0" ignored="0">
+  <testsuite name="com.tenpines.tddcourse.XXXX" time="0.001">
+    <testcase name="test050_50a89" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test001" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test002" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test003" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test004" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test005" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test006" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test007" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test008" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test009" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test010" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test011" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test012" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test013" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test014" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test019" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test030_30a39" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test015_15A18" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test040_40a49" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+    <testcase name="test020_20a29" classname="com.tenpines.tddcourse.XXXX" time="0.0"/>
+  </testsuite>
+</testrun>

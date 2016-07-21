@@ -1,0 +1,66 @@
+package com.tenpines.tddcourse;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class CarritoTest {
+
+	/*
+	Carrito 
+
+	Given: un carito
+	When: crear un carrito nuevo 
+	Then: Assert carrito vacio
+
+
+	Given: un carrito
+	When: agrego un libro
+	Then: Assert que el libro este
+
+
+	Given: un carrito
+	When: agrego mas de un libro
+	Then: Assert que el libro este
+
+	Given: un carrito
+	When: agrego menos un libro
+	Then: Assert excepcion
+
+
+	Given: un carrito
+	When: agrego varios de un libro
+	Then: Assert que esten
+
+	Given: un carrito
+	When: agrego libro de otra editorial
+	Then: Assert excepcion*/
+	
+	@Test
+	public void test001() {
+		//Given: un carito
+		Cart cart = new Cart();
+		//When: crear un carrito nuevo
+		cart.setCantidad(0);
+		//Then: Assert carrito vacio
+		Assert.assertTrue(cart.getCantidad() == 0);
+	}
+	
+	@Test
+	public void test002() {
+		//Given: un carito
+		Cart cart = new Cart();
+		//When: agrego un libro
+		Book book = new Book();
+		book.setName("El Cantar de los Nibelungos");
+		cart.addBook(book);
+		//Then: Assert que el libro este
+		Assert.assertTrue(cart.getCantidad() == 1);
+		List<Book> books = cart.getBook(); 
+		Assert.assertTrue(books.leghth() == 1);
+	}
+
+}

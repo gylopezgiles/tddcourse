@@ -1,0 +1,31 @@
+package com.tenpines.tddcourse;
+
+import java.util.List;
+
+public class Cart {
+	
+	private int cantidad;
+	private List<Book> books;
+	
+	public Cart() {
+		cantidad = 0;
+	}
+	
+	public int getCantidad() {
+		return cantidad;
+	}
+
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+
+	public void addBook(Book book) {
+		cantidad ++;
+		books.add(book);
+	}
+	
+	public List<Book> getBooks() {
+		return books;
+	}
+
+}

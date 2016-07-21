@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CarritoTest" project="firstKata_RomansNumber" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.tenpines.tddcourse.CarritoTest" time="0.0">
+    <testcase name="test001" classname="com.tenpines.tddcourse.CarritoTest" time="0.0"/>
+    <testcase name="test002" classname="com.tenpines.tddcourse.CarritoTest" time="0.0"/>
+  </testsuite>
+</testrun>

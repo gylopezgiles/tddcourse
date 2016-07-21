@@ -1,0 +1,62 @@
+package com.tenpines.tddcourse;
+
+public class LatinNumberToRomanTransformer {
+	
+	public String transform(int latinNumber){
+		String result = "";
+		int minValue = 0;
+		result = transform1to9(latinNumber, result, minValue);
+		
+		if(latinNumber > 9 && latinNumber < 14) {
+			result = "X";
+			minValue = 9;
+			result = addPipes(latinNumber, result,minValue);
+		}
+		
+		if(latinNumber == 14) {
+			result = "XIV";
+		}
+		
+		if(latinNumber > 14 && latinNumber < 19) {
+			result = "XV";
+			minValue = 14;
+			result = addPipes(latinNumber, result,minValue);
+		}
+		
+		if(latinNumber == 19) {
+			result = "XIX";
+		}
+		
+		return result;
+		
+	}
+
+	private String transform1to9(int latinNumber, String result, int minValue) {
+		if (latinNumber <= 3){
+			result = addPipes(latinNumber, result, minValue);
+		}		 
+		if(latinNumber == 4) {
+			result = "IV";
+		}
+		
+		if(latinNumber > 4 && latinNumber < 9) {
+			result = "V";
+			minValue = 4;
+			result = addPipes(latinNumber, result,minValue);
+		}
+		if(latinNumber == 9) {
+			result = "IX";
+		}
+		return result;
+	}
+	
+	private String addPipes(int latinNumber, String result, int minValue){
+		int toAnalize = latinNumber;
+		int value = (minValue == 0)? 0 :minValue+1;
+		for(int init= value; init<toAnalize;init++){
+			result = result + "I";
+		}
+		return result;
+	}
+
+}

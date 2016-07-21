@@ -1,0 +1,22 @@
+package com.tenpines.tddcourse;
+
+public class LatinNumberToRomanTransformer {
+	
+	public String transform(int latinNumber){
+		String result = "";
+		if(latinNumber >= 1 && latinNumber <= 3){
+			for(int i=0; i<latinNumber;i++){
+				result = result + "I";
+			}
+		} 
+		if(latinNumber == 4) {
+			result = "IV";
+		}
+		if(latinNumber == 5) {
+			result = "V";
+		}
+		return result;
+		
+	}
+
+}

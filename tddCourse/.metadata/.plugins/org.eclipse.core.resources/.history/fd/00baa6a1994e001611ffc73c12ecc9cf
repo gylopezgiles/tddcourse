@@ -1,0 +1,229 @@
+package com.tenpines.tddcourse;
+
+
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class XXXX {
+	
+	
+	@Test
+	public void test001(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(1);
+		//then
+			Assert.assertTrue("I".equals(expected));
+	}
+	
+	@Test
+	public void test002(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(2);
+		//then
+			Assert.assertTrue("II".equals(expected));
+	}
+	
+	@Test
+	public void test003(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(3);
+		//then
+			Assert.assertTrue("III".equals(expected));
+	}
+	
+	@Test
+	public void test004(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(4);
+		//then
+			Assert.assertTrue("IV".equals(expected));
+	}
+	
+	@Test
+	public void test005(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(5);
+		//then
+			Assert.assertTrue("V".equals(expected));
+	}
+	
+	@Test
+	public void test006(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(6);
+		//then
+			Assert.assertTrue("VI".equals(expected));
+	}
+	
+	@Test
+	public void test007(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(7);
+		//then
+			Assert.assertTrue("VII".equals(expected));
+	}
+	
+	@Test
+	public void test008(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(8);
+		//then
+			Assert.assertTrue("VIII".equals(expected));
+	}
+	
+	@Test
+	public void test009(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(9);
+		//then
+			Assert.assertTrue("IX".equals(expected));
+	}
+	
+	@Test
+	public void test010(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(10);
+		//then
+			Assert.assertTrue("X".equals(expected));
+	}
+
+	@Test
+	public void test011(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(11);
+		//then
+			Assert.assertTrue("XI".equals(expected));
+	}
+	
+	@Test
+	public void test012(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(12);
+		//then
+			Assert.assertTrue("XII".equals(expected));
+	}
+	
+	@Test
+	public void test013(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(13);
+		//then
+			Assert.assertTrue("XIII".equals(expected));
+	}
+
+	@Test
+	public void test014(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(14);
+		//then
+			Assert.assertTrue("XIV".equals(expected));
+	}
+
+	
+	@Test
+	public void test015_15A18(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(15);
+		//then
+			Assert.assertTrue("XV".equals(expected));
+		//when
+			expected = sut.transform(16);
+		//then
+			Assert.assertTrue("XVI".equals(expected));
+		//when
+			expected = sut.transform(17);
+		//then
+			Assert.assertTrue("XVII".equals(expected));
+		//when
+			expected = sut.transform(18);
+		//then
+			Assert.assertTrue("XVIII".equals(expected));
+	}
+	
+	@Test
+	public void test019(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(19);
+		//then
+			Assert.assertTrue("XIX".equals(expected));
+	}
+	
+	@Test
+	public void test020_20a29(){
+		//given
+			LatinNumberToRomanTransformer sut = new LatinNumberToRomanTransformer();
+		//when
+			String expected = sut.transform(20);
+		//then
+			Assert.assertTrue("XX".equals(expected));
+		//when
+			expected = sut.transform(21);
+		//then
+			Assert.assertTrue("XXI".equals(expected));
+		//when
+			expected = sut.transform(22);
+		//then
+			Assert.assertTrue("XXII".equals(expected));
+		//when
+			expected = sut.transform(23);
+		//then
+			Assert.assertTrue("XXIII".equals(expected));
+		//when
+			expected = sut.transform(24);
+		//then
+			Assert.assertTrue("XXIV".equals(expected));
+		//when
+			expected = sut.transform(25);
+		//then
+			Assert.assertTrue("XXV".equals(expected));
+		//when
+			expected = sut.transform(26);
+		//then
+			Assert.assertTrue("XXVI".equals(expected));
+		//when
+			expected = sut.transform(27);
+		//then
+			Assert.assertTrue("XXVII".equals(expected));
+		//when
+			expected = sut.transform(28);
+		//then
+			Assert.assertTrue("XXVIII".equals(expected));
+		//when
+			expected = sut.transform(29);
+		//then
+			Assert.assertTrue("XXIX".equals(expected));
+	}
+}

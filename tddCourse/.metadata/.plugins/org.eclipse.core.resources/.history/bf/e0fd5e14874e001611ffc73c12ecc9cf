@@ -1,0 +1,9 @@
+package com.tenpines.tddcourse;
+
+public class LatinNumberToRomanTransformer {
+	
+	public String transform(int latinNumber){
+		return "I";
+	}
+
+}
